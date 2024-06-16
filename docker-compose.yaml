@@ -1,0 +1,6 @@
+services:
+  frontend:
+    container_name: fe
+    image: registry.farid.studentdumbways.my.id/faridaslam/dmfrontend:3.0
+    ports:
+      - "3000:3000"
